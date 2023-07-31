@@ -199,7 +199,7 @@ export default function Portfolio() {
         </div>
         {/* Resume Sec end */}
 
-        <div className="Footer-sec" id="contact">
+        <div className="Footer-sec row" id="contact">
           <div className="row">
             <div className="foot-logo-desc col-lg-3">
               <div className="foot-logo-desc">

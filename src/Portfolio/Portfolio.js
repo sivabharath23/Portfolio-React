@@ -4,8 +4,7 @@ import Menu from "./assets/images/icons/menu.png";
 import ios from "./assets/images/background/ios.png";
 import Aero from "./assets/images/background/Aerospace.png";
 import Pedia from "./assets/images/background/Encyclopedia.png";
-import CNC from "./assets/images/background/CNC.png"
-
+import CNC from "./assets/images/background/CNC.png";
 
 export default function Portfolio() {
   return (
@@ -27,22 +26,31 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="main-header-social-media">
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
               <i className="fab fa-facebook fab-icon"></i>
             </a>
-            <a href="https://twitter.com/sivabharath23" target="_blank">
+            <a
+              href="https://twitter.com/sivabharath23"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-twitter fab-icon"></i>
             </a>
-            <a href="https://www.instagram.com/sivabharath_23/" target="_blank">
+            <a
+              href="https://www.instagram.com/sivabharath_23/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-instagram fab-icon"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/sivabharath-991563218/"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin fab-icon"></i>
             </a>
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
               <i className="fab fa-youtube fab-icon"></i>
             </a>
           </div>
@@ -146,6 +154,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/sivabharath23/frontend-Project-ios"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn btn-success">Source code</button>
             </a>
@@ -154,17 +163,16 @@ export default function Portfolio() {
             <a
               href="https://github.com/sivabharath23/Aerospace-Frontend"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn btn-success">Source code</button>
             </a>
             <h1>Enclyclopedia</h1>
-            <img
-              src={Pedia}
-              alt="Enclyclopedia"
-            />
+            <img src={Pedia} alt="Enclyclopedia" />
             <a
               href="https://github.com/sivabharath23/Encyclopedia-Clone-Frontend"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn btn-success">Source code</button>
             </a>
@@ -173,6 +181,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/sivabharath23/CNC-FrontEnd"
               target="_blank"
+              rel="noreferrer"
             >
               <button className="btn btn-success">Source code</button>
             </a>
@@ -190,36 +199,45 @@ export default function Portfolio() {
         </div>
         {/* Resume Sec end */}
 
-        <div className="Footer-sec" id="contact">
+        <div className="Footer-sec row" id="contact">
           <div className="row">
             <div className="foot-logo-desc col-lg-3">
               <div className="foot-logo-desc">
-                <img
-                  src={Logo}
-                  height="100px"
-                  width="100px"
-                  alt=""
-                />
+                <img src={Logo} height="100px" width="100px" alt="" />
                 <div className="Footer-social-media">
-                  <a href="https://www.facebook.com" target="_blank">
+                  <a
+                    href="https://www.facebook.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-facebook fab-icon"></i>
                   </a>
-                  <a href="https://twitter.com/sivabharath23" target="_blank">
+                  <a
+                    href="https://twitter.com/sivabharath23"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-twitter fab-icon"></i>
                   </a>
                   <a
                     href="https://www.instagram.com/sivabharath_23/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="fab fa-instagram fab-icon"></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/sivabharath-991563218/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="fab fa-linkedin fab-icon"></i>
                   </a>
-                  <a href="https://www.youtube.com" target="_blank">
+                  <a
+                    href="https://www.youtube.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fab fa-youtube fab-icon"></i>
                   </a>
                 </div>
@@ -294,7 +312,7 @@ export default function Portfolio() {
           </div>
           <div className="copy-right">
             <hr />
-            <p>&copy; 2023 Sivabharath. All rights reserved.</p>
+            <p>&copy; 2023 Sivabharath. All rights reserved....</p>
           </div>
         </div>
       </div>

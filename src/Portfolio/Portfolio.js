@@ -312,7 +312,7 @@ export default function Portfolio() {
           </div>
           <div className="copy-right">
             <hr />
-            <p>&copy; 2023 Sivabharath. All rights reserved..</p>
+            <p>&copy; 2023 Sivabharath. All rights reserved....</p>
           </div>
         </div>
       </div>

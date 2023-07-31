@@ -392,3 +392,4 @@ function Contact() {
   document.getElementById("C").style.color = "#28A745 ";
 }
 /*** ***/
+/** new update */
